@@ -4,7 +4,6 @@ import Header from './header.jsx'
 import InputText from './comp1.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

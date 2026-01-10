@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@layer components{
+    .card{
+        @apply m-10 p-6 text-white bg-black rounded-lg hover:shadow-sm
+        shadow-amber-200 hover:scale-105 transition-transform duration-300;
+    }
+}
